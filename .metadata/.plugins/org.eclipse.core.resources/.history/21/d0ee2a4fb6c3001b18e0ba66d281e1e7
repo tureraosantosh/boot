@@ -1,0 +1,5 @@
+package com.infinx.service;
+
+public class UserService {
+
+}

@@ -1,0 +1,12 @@
+package com.infinx.service;
+
+public class UserService {
+	
+	
+	public String saveUser(String name)
+	{
+		
+		return null;
+	}
+
+}

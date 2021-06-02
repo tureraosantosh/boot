@@ -1,0 +1,10 @@
+package org.infinx;
+
+public class Employee {
+	
+	public Employee() {
+
+	System.out.println("Employee Constructor Executed ....");
+	}
+
+}

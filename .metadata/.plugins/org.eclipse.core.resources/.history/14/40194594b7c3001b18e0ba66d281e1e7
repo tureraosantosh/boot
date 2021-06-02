@@ -1,0 +1,14 @@
+package com.infinx.controller;
+
+import com.infinx.service.UserService;
+
+public class UserController {
+
+	UserService userService;
+
+	public String saveData(String name) {
+		String saveUser = userService.saveUser(name);
+		return saveUser;
+	}
+
+}

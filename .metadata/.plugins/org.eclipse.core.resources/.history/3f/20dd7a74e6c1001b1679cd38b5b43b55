@@ -1,0 +1,11 @@
+package in.infinx;
+
+public class Student {
+	
+	
+	public Student() {
+
+	System.out.println(" Student :: Constructor ");
+	}
+
+}

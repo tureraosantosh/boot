@@ -1,0 +1,5 @@
+package com.infinx.controller;
+
+public class UserController {
+
+}

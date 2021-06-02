@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+F:\newworkSpece\training\boot\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3350015534.index
+1854864183.index
+2099992292.index
+842249194.index
+1824832975.index
+1301138063.index
+620318300.index
+2176565411.index
+3420026411.index
+4152863373.index

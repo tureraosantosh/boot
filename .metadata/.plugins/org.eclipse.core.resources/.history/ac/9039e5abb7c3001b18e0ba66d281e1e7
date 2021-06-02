@@ -1,0 +1,16 @@
+package com.infinx.service;
+
+import com.infinx.dao.UserDao;
+
+public class UserService {
+	
+	UserDao userDao;
+	public String saveUser(String name)
+	{
+		
+		String saveData = userDao.saveData(name);
+		
+		return saveData;
+	}
+
+}

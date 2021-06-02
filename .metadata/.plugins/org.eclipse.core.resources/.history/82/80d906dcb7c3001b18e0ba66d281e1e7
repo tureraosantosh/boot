@@ -1,0 +1,19 @@
+package com.infinx.service;
+
+import org.springframework.stereotype.Service;
+
+import com.infinx.dao.UserDao;
+
+@Service
+public class UserService {
+	
+	UserDao userDao;
+	public String saveUser(String name)
+	{
+		
+		String saveData = userDao.saveData(name);
+		
+		return saveData;
+	}
+
+}

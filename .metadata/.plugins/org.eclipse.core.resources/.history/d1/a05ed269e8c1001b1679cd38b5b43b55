@@ -1,0 +1,9 @@
+package com.infinx;
+
+public class Princi {
+
+	public Princi() {
+		System.out.println("Princi Constructor Executed ");
+	}
+
+}

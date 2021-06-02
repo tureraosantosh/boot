@@ -1,0 +1,22 @@
+package com.infinx.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.infinx.dao.UserDao;
+
+@Service
+public class UserService {
+	
+	@Autowired
+	UserDao userDao;
+	
+	public String saveUser(String name)
+	{
+		
+		String saveData = userDao.saveData(name);
+		
+		return saveData;
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.infinx.dao;
+
+public class UserDao {
+
+	public String saveData(String name)
+	{
+		return "Data Saved Successfully "+name);
+	}
+
+}

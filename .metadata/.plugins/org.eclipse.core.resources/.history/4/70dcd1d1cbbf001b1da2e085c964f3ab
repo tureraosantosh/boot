@@ -1,0 +1,19 @@
+package com.infinx;
+
+import org.infotech.Employee;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.infinx.beans.Student;
+
+@SpringBootApplication
+public class Session03FirstAppApplication {
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context = SpringApplication.run(Session03FirstAppApplication.class, args);
+		Student student = context.getBean(Student.class);
+		System.out.println("Count" + context.getBeanDefinitionCount());
+		student.showStudent();
+	}
+
+}
