@@ -2,6 +2,7 @@
 <aop-reference-model>
 <aop-project name="session-03-web-app-1"/>
 <aop-project name="session-03-web-app-2"/>
+<aop-project name="session-06-autowired"/>
 <aop-project name="session-03-first-app"/>
 <aop-project name="session-03-web-app"/>
 <aop-project name="session-05-component-scan"/>

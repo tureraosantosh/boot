@@ -8,8 +8,16 @@ import com.infinx.service.UserService;
 @Controller
 public class UserController {
 
-	@Autowired
 	UserService userService;
+
+
+
+	@Autowired
+	public void setUserService(UserService userService) {
+		this.userService = userService;
+	}
+
+
 
 	public String saveData(String name) {
 		String saveUser = userService.saveUser(name);
