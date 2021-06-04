@@ -10,6 +10,7 @@ import com.infinx.bean.IReport;
 public class ReportService {
 
 	@Autowired
+	@Qualifier("excel")
 	private IReport iReport;
 
 	public void generateReport() {
